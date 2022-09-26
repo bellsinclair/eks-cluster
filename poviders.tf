@@ -4,7 +4,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  profile = "yvanaws"
+  profile = "myfricatv-terraform"
 }
 
 data "aws_availability_zones" "available" {}
